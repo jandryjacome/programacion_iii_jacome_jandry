@@ -1,0 +1,293 @@
+# ============================================================
+
+# Node.js / npm / Yarn / pnpm
+
+# ============================================================
+
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Lockfiles - NO ignorar normalmente
+
+# package-lock.json
+
+# yarn.lock
+
+# pnpm-lock.yaml
+
+# ============================================================
+
+# Environment variables / Secrets
+
+# ============================================================
+
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# ============================================================
+
+# Build / Distribution
+
+# ============================================================
+
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.vercel/
+.netlify/
+coverage/
+.nyc_output/
+storybook-static/
+
+# TypeScript
+
+*.tsbuildinfo
+
+# ============================================================
+
+# React / Vite / Next.js
+
+# ============================================================
+
+.vite/
+vite.config.*.timestamp-*
+.cache/
+
+# React generated files
+
+.eslintcache
+
+# ============================================================
+
+# NestJS
+
+# ============================================================
+
+.nest/
+uploads/
+temp/
+tmp/
+
+# ============================================================
+
+# Logs
+
+# ============================================================
+
+logs/
+*.log
+*.log.*
+log/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================================
+
+# Testing
+
+# ============================================================
+
+coverage/
+.nyc_output/
+jest-cache/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# ============================================================
+
+# IDE / Editors
+
+# ============================================================
+
+# Visual Studio Code
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+
+*.swp
+*.swo
+*~
+
+# Emacs
+
+*~
+#*#
+
+# ============================================================
+
+# Operating Systems
+
+# ============================================================
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================
+
+# Temporary files / folders
+
+# ============================================================
+
+tmp/
+temp/
+.tmp/
+.temp/
+.cache/
+.cache-loader/
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+
+# ============================================================
+
+# Database / Local development
+
+# ============================================================
+
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Local database folders
+
+data/
+database/data/
+
+# ============================================================
+
+# Docker
+
+# ============================================================
+
+docker-compose.override.yml
+.docker/
+*.dockerfile
+
+# ============================================================
+
+# Generated documentation
+
+# ============================================================
+
+docs/_build/
+site/
+
+# ============================================================
+
+# Miscellaneous generated files
+
+# ============================================================
+
+*.pid
+*.seed
+*.pid.lock
+
+report/
+reports/
+
+# Local uploads
+
+uploads/
+public/uploads/
+storage/
+storage/logs/
+storage/framework/
+
+# ============================================================
+
+# Backup files
+
+# ============================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================================
+
+# Local configuration
+
+# ============================================================
+
+*.local
+*.local.*
+config.local.*
+EOF
+EOF
+EOF

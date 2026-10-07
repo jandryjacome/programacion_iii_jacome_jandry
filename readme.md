@@ -2,7 +2,7 @@
 
 ## 👨‍💻 Autor
 
-**Jacome Jandry**
+**Jacome Jandry **
 
 ----
 
