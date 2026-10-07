@@ -4,9 +4,10 @@
 
 **Jacome Jandry**
 
----
+----
 
-## 📖 Descripción
+
+## 📖 Descripción.
 
 Este repositorio corresponde a la materia **Programación III** y tiene como objetivo recopilar ejercicios, prácticas, proyectos y recursos desarrollados durante el curso.
 
