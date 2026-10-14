@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body>
+    <form action="/register" method="POST">
+        <label for="username">Nombre: </label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" name="apellido" required>
+        <br><br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="confirm-password">Confirm Password: </label>
+        <input type="password" id="confirm-password" name="confirm_password" required>
+        <br><br>
+
+        <label for="age">Edad: </label>
+        <input type="number" id="age" name="age" required>
+        <br><br>
+
+
+        <label for="fuerza">Nivel de la fuerza: </label>
+        <input type="number" id="fuerza" name="nivel_fuerza" min="10" max="100" value="50">
+        <br><br>
+
+
+        <label for="habilidades">Seleccione sus habilidades: </label>
+        <select name="habilidades" id="habilidades">
+            <option value="habilidad1">Teletransportación</option>
+            <option value="habilidad2">Volar</option>
+            <option value="habilidad3">Invisibilidad</option>
+        </select>
+        <br><br>
+        <label for="raza">Seleccione su raza: </label>
+        <select name="raza" id="raza">
+            <option value="raza1">sayayines</option>
+            <option value="raza2">humanos</option>
+            <option value="raza3">criptonianos</option>
+        </select>
+        <br><br>
+        <label for="planeta">Planeta de origen: </label>
+        <input type="text" id="planeta" name="planeta" required>
+        <br><br>
+        <label for="droide">Seleccione su droide: </label>
+        <select name="droide" id="droide">
+            <option value="droide1">R2-D2</option>
+            <option value="droide2">C-3PO</option>
+            <option value="droide3">BB-8</option>
+        </select>
+        <br><br>
+        <td>
+            <fieldset>
+                <legend> datos generales : </legend>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="otro">Otro</label>
+                <input type="radio" id="otro" name="genero" value="otro">
+            </fieldset>
+        </td>
+        <td>
+            <button type="reset">Reset</button>
+        </td>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
