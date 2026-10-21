@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Jandry</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f3eee5;
+            color: #30271f;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #684c36;
+            color: white;
+            padding: 24px;
+            text-align: center;
+        }
+        nav, main, footer {
+            max-width: 900px;
+            margin: 18px auto;
+            padding: 16px;
+        }
+        nav a {
+            color: #684c36;
+            margin-right: 16px;
+        }
+        section {
+            background-color: white;
+            margin: 16px 0;
+            padding: 18px;
+            border-radius: 8px;
+        }
+        h2 { color: #684c36; }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #b9a58e;
+            padding: 8px;
+            text-align: left;
+        }
+        th { background-color: #e9ddcd; }
+        input, select, button { margin: 5px 0; padding: 6px; }
+        footer { text-align: center; }
+    </style>
+</head>
+<body>
+    <header id="inicio">
+        <h1 style="color: #fff;">Biblioteca de Jandry</h1>
+        <p>Un espacio sencillo para encontrar buenas historias.</p>
+    </header>
+
+    <nav>
+        <a href="#libros">Libros</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#prestamo">Préstamo</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Bienvenidos</h2>
+            <p>Esta biblioteca reúne novelas conocidas de autores de distintos países.</p>
+            <p><strong>Lee, aprende</strong> y disfruta de cada <em>nueva aventura</em>.</p>
+            <figure>
+                <img src="HTML/imagenes/images.jpeg" alt="Imagen de la colección de la biblioteca" width="220">
+                <figcaption>Un rincón para disfrutar de la lectura.</figcaption>
+            </figure>
+        </section>
+
+        <section id="libros">
+            <h2>Libros disponibles</h2>
+            <ul>
+                <li>Cien años de soledad</li>
+                <li>Don Quijote de la Mancha</li>
+                <li>Huasipungo</li>
+                <li>María</li>
+            </ul>
+            <h3>Libros más solicitados</h3>
+            <ol>
+                <li>Cien años de soledad</li>
+                <li>Huasipungo</li>
+                <li>Don Quijote de la Mancha</li>
+            </ol>
+            <dl>
+                <dt><strong>Huasipungo</strong></dt>
+                <dd>Novela del escritor ecuatoriano Jorge Icaza.</dd>
+                <dt><strong>María</strong></dt>
+                <dd>Novela del escritor colombiano Jorge Isaacs.</dd>
+            </dl>
+        </section>
+
+        <section id="catalogo">
+            <h2>Catálogo de la biblioteca</h2>
+            <table>
+                <caption>Algunos libros de nuestra colección</caption>
+                <thead>
+                    <tr><th>Libro</th><th>Autor</th><th>Disponibilidad</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Cien años de soledad</td><td>Gabriel García Márquez</td><td>Disponible</td></tr>
+                    <tr><td>Don Quijote de la Mancha</td><td>Miguel de Cervantes</td><td>Disponible</td></tr>
+                    <tr><td>Huasipungo</td><td>Jorge Icaza</td><td>En préstamo</td></tr>
+                </tbody>
+            </table>
+            <p>Más información sobre <a href="https://es.wikipedia.org/wiki/Literatura">literatura</a>.</p>
+        </section>
+
+        <section id="prestamo">
+            <h2>Solicitar un préstamo</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="libro">Libro que desea:</label><br>
+                <select id="libro" name="libro">
+                    <option>Cien años de soledad</option>
+                    <option>Don Quijote de la Mancha</option>
+                    <option>Huasipungo</option>
+                    <option>María</option>
+                </select><br>
+                <button type="submit">Enviar solicitud</button>
+                <button type="reset">Limpiar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Audio</h2>
+            <p>Reproductor de audio de la biblioteca:</p>
+            <audio src="HTML/Music/musiccc.mp3" controls></audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>Biblioteca de Jandry · Programación III</p>
+        <a href="#inicio">Volver al inicio</a>
+    </footer>
+</body>
+</html>
