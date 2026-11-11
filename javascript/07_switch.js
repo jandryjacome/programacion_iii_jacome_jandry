@@ -10,7 +10,7 @@ switch (dimension) {
         console.log("Estas en la dimension C-500");
         break;
     case 4:
-        console.log("Dimension Sharon Ortiz");
+        console.log("Dimension Jandry Jacome");
         break;
     default:
         console.log("Estas en una dimension desconocida");
