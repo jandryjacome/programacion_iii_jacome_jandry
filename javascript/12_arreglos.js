@@ -1,0 +1,20 @@
+let personajes = ["Goku", "Vegeta", "Trunks", "Gohan","jacome","jandry"];
+console.log("Elemento 0", personajes[0]);
+console.log("Elemento 2", personajes[2]);
+console.log("Elemento 5", personajes[5]);
+console.log("Elemento 4", personajes[4]);
+console.log(" tamaño de arreglo", personajes.length);
+console.log("personajes", personajes);
+
+console.log("Incluir elementos de un regalo con push");
+personajes.push("jacome");
+personajes.push("jandry");
+console.log("modificar elementos de un arreglo");
+personajes[7]= "javier";
+personajes[0]= "jose";
+console.log("personajes", personajes);
+console.log("Eliminar elementos de un arreglo");
+personajes.pop();
+personajes.shift();
+personajes.splice(1,1);
+console.log("personajes", personajes);
