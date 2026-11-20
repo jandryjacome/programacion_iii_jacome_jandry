@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript en la biblioteca</title>
+</head>
+<body>
+    <h1>Incluir JavaScript en la biblioteca</h1>
+    <h2>Modo inline</h2>
+    <button onclick="alert('Bienvenido a la biblioteca')">
+        Mostrar mensaje
+    </button>
+    <input type="text"
+           oninput="console.log(this.value)"
+           placeholder="Escriba el nombre de un libro">
+    <input type="text"
+           onfocus="console.log('Buscando un libro')"
+           placeholder="Buscar libro">
+    <script src="/javascript/01_incluir.js"></script>
+</body>
+</html>
