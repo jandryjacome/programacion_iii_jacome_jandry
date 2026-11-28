@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #355c7d;
+    color: white;
+    padding: 15px;
+}
+
+.distribucion {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.libros {
+    display: flex;
+    gap: 10px;
+}
+
+.libros article {
+    flex: 1;
+    background-color: #e8eef3;
+    padding: 15px;
+}
+
+.lateral {
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+@media (max-width: 700px) {
+    .distribucion {
+        grid-template-columns: 1fr;
+    }
+
+    .libros {
+        flex-direction: column;
+    }
+}
